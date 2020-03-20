@@ -12,22 +12,12 @@ function cb_touchstart(e) {
 
 
 function cb_touchmove(e) {
+    e.preventDefault();
     console.log("touch move");
     //console.log(e);
-    console.log(e.changedTouches[0].pageX);
-    console.log(e.changedTouches[0].pageY);
+    x = e.changedTouches[0].pageX;
+    y = e.changedTouches[0].pageY;
 
-    e.preventDefault();
-
-    touches = e.changedTouches;
-
-    for (var i = 0; i < touches.length; i++) {
-        var idx = ongoingTouchIndexById(touches[i].identifier);
-        if (idx >= 0) {
-            x = touches[i].pageX;
-            y = touches[i].pageY;
-        }
-    }
 }
 
 
