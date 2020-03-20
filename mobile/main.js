@@ -13,7 +13,9 @@ function cb_touchstart(e) {
 
 function cb_touchmove(e) {
     console.log("touch move");
-    console.log(e);
+    //console.log(e);
+    console.log(e.changedTouches[0].pageX);
+    console.log(e.changedTouches[0].pageY);
 
     e.preventDefault();
 
