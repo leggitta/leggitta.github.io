@@ -35,9 +35,11 @@ document.addEventListener("touchcancel", cb_touchcancel);
 document.addEventListener("touchend", cb_touchend);
 
 function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.beginPath();
     ctx.arc(x, y, rad, 0, Math.PI*2);
     ctx.fillStyle = "#00ff00";
+    ctx.fill();
     ctx.closePath();
 }
 
