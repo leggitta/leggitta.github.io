@@ -6,9 +6,15 @@ var y = 100;
 var rad = 10;
 
 function cb_touchstart(e) {
+    console.log("touch start");
+    console.log(e);
 }
 
+
 function cb_touchmove(e) {
+    console.log("touch move");
+    console.log(e);
+
     e.preventDefault();
 
     touches = e.changedTouches;
@@ -24,15 +30,19 @@ function cb_touchmove(e) {
 
 
 function cb_touchcancel(e) {
+    console.log("touch cancel");
+    console.log(e);
 }
 
 function cb_touchend(e) {
+    console.log("touch end");
+    console.log(e);
 }
 
-document.addEventListener("touchstart", cb_touchstart);
-document.addEventListener("touchmove", cb_touchmove);
-document.addEventListener("touchcancel", cb_touchcancel);
-document.addEventListener("touchend", cb_touchend);
+document.addEventListener("touchstart", cb_touchstart, false);
+document.addEventListener("touchmove", cb_touchmove, false);
+document.addEventListener("touchcancel", cb_touchcancel, false);
+document.addEventListener("touchend", cb_touchend, false);
 
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
