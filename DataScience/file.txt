@@ -1,0 +1,31 @@
+1)Coursera
+Data Science Specialization by Johns Hopkins University
+Machine Learning by Stanford University
+Deep Learning Specialization by deeplearning.ai
+2)edX
+Data Science MicroMasters by UC Berkeley
+Microsoft Professional Program in Data Science
+Introduction to Artificial Intelligence by IBM
+3)Udacity
+Data Scientist Nanodegree
+Machine Learning Engineer Nanodegree
+4)Kaggle Courses
+Intro to Machine Learning
+Deep Learning
+Pandas for Data Manipulation
+5)MIT OpenCourseWare
+Introduction to Computer Science and Programming
+6)Stanford Online
+CS231n: Convolutional Neural Networks for Visual Recognition
+7)Fast.ai
+Practical Deep Learning for Coders
+8)DataCamp
+Various data science and machine learning courses
+9)YouTube Channels and Tutorials
+Sentdex: Python programming and machine learning tutorials
+Corey Schafer: Programming tutorials including Python and data science
+StatQuest with Josh Starmer: Concepts in statistics and machine learning
+10)Books
+"Python for Data Analysis" by Wes McKinney
+"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aurélien Géron
+"The Elements of Statistical Learning" by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
